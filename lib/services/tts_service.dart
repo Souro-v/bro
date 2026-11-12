@@ -15,7 +15,7 @@ class TtsService {
     try {
       await _tts.speak(text);
     } catch (e) {
-      debugPrint ('TTS error: $e');
+      debugPrint('TTS error: $e');
     }
   }
 
